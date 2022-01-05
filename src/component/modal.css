@@ -1,0 +1,227 @@
+.cal-area{
+    height: 50px;
+    width: auto;
+    background-color: #f3f3f3;
+    border: 1px solid #c4c1c1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.cal-area h4{
+    margin-left: auto;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: #3d3939;
+}
+.div1{
+    height: 35px;
+    border-radius: 5px;
+    background-color: #e7e6e6;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div1 p{
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.heading{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 7px;
+    color: #3d3939;
+}
+.pills{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    border-radius: 40px !important;
+    color: rgb(73, 70, 70) !important;
+    font-weight: 600;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: rgb(31, 30, 30) !important;
+    background-color: #f9ec85 !important;
+}
+.nav-pills .nav-link {
+    background: 0 0;
+    background-color: #eeeaea !important;
+}
+.text-wrapper, .text-wrapper2{
+    display: flex;
+    align-items: center;
+}
+.text-wrapper p{
+    margin-left: auto;
+    right: 0px;
+    margin-top: 10px !important;
+    font-weight: bold;
+    color: #3d3939;
+    text-align: end;
+    margin-bottom: 5px;
+}
+.text-wrapper2 p{
+    margin-left: auto;
+    right: 0px;
+    font-weight: bold;
+    color: #3d3939;
+}
+.list-group p{
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #4d4d4d;
+}
+ul{
+    padding-left: 1rem;
+    margin-bottom: 0;
+}
+ul li{
+    font-weight: 500;
+    color: #a5a4a4;
+    font-size: 14px;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 28px;
+    margin-top: 5px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 0px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #f0c643;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #f0c643;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+
+  .switch2 {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 21px;
+    margin-left: -9px;
+  }
+  
+  .switch2 input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider2 {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider2:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: -6px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider2 {
+    background-color: #f0c643;
+  }
+  
+  input:focus + .slider2 {
+    box-shadow: 0 0 1px #f0c643;
+  }
+  
+  input:checked + .slider2:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider2.round2 {
+    border-radius: 34px;
+  }
+  
+  .slider2.round2:before {
+    border-radius: 50%;
+  }
+
+.icon-text{
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #4d4d4d;
+}
+.icon-text i{
+    font-size: 18px;
+}
+.extra-text{
+    font-size: 15px;
+    font-weight: bold;
+}
+.toggle-text{
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 1px !important;
+}
